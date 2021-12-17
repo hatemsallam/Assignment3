@@ -24,17 +24,37 @@ button {
 
 
 
-
-
-
 form {
     text-align:center;
     margin-top: 10%;
 }
 
+.formInput {
+    padding: 9px;
+     width: 20%;
+     margin-bottom: 1%;
+}
 
+@media (max-width: 800px) {
+    .formInput{
+        padding: 20px;
+        width: 55%;
+        margin-bottom: 6%;
 
+    }
 
+    #btn{
+        width: 40%;
+        position: relative;
+        left: 48px;
+    }
+
+    
+form {
+    text-align:center;
+    margin-top: 40%;
+  }
+}
 
 
 footer {
@@ -44,6 +64,8 @@ footer {
     height:140px; 
     background:#5D5D5D;
  }
+
+
 
 
 
